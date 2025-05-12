@@ -32,7 +32,8 @@ conn = MySQLdb.connect(
     host="localhost",
     user="your_name",
     passwd="your_password",
-    db="your_db"
+    db="your_db",
+    unix_socket="/run/mysqld/mysqld.sock"
 )
 cursor = conn.cursor()
 
