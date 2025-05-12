@@ -13,9 +13,9 @@ gene = sys.argv[1]
 
 conn = MySQLdb.connect(
     host="localhost",
-    user="min-jeongbaek",
-    passwd="Hellounmcmj23*",
-    db="min-jeongbaek"
+    user="your_name",
+    passwd="your_password",
+    db="your_db"
 )
 cursor = conn.cursor()
 
