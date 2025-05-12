@@ -30,9 +30,9 @@ merged_df.columns = ['genes', 'cell_line', 'cancer_type', 'expression']
 ##### Connect to MySQL database #####
 conn = MySQLdb.connect(
     host="localhost",
-    user="min-jeongbaek",
-    passwd="Hellounmcmj23*",
-    db="min-jeongbaek"
+    user="your_name",
+    passwd="your_password",
+    db="your_db"
 )
 cursor = conn.cursor()
 
