@@ -14,9 +14,9 @@ gene = sys.argv[1]
 # Connect to MySQL
 conn = MySQLdb.connect(
     host="localhost",
-    user="min-jeongbaek",
-    passwd="Hellounmcmj23*",
-    db="min-jeongbaek",
+    user="your_name",
+    passwd="your_password",
+    db="your_db",
     unix_socket="/run/mysqld/mysqld.sock"
 )
 
